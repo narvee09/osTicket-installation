@@ -46,8 +46,30 @@ Navigate back to the iinital tree home > PHP Mangaer > Enable or disable an exte
 -  php_opcache.dll
 -  php_intl.dll
 
-Navigate to home, restart IIS and refresh osTicket in browser (img placeholder to show extension update[how it should look])
+Navigate to home, restart (IIS) and refresh osTicket in browser (img placeholder to show extension update[how it should look])
 
 
 <h2>Implentation and clean up</h2>
+<h3>osTicket Security Release</h3>
+Navigate to wwwroot>osTicket>include 
+img(placeholder)
+Rename ost-sampleconfig.php to "ost-config.php". Open properties on this file
+imgplaceholder(ost-congig.php properties screens)
+Navigate to the security tab>advanced>disable inheritance>remove all inherited permissions from this object then click on add>select a principal>type in "everyone" and click on check names
 
+<h3>HeidiSQL</h3>
+img(placeholder h-SQL screens)
+Open HeidiSQL click on new and input the password created during the mySQL standard configuration.
+Right click within the unnamed tree then create new > database and input the name "osTicket"
+
+<h3>OsTicket Installation</h3>
+Navigate to the osTicket browser window and click continue
+img placeholder(osTicket basic installation *blank* screen)
+In the password section use the same password used in mySQL and HeidiSQL configuration, then click on install now
+
+<h3>osTicket Security Lock</h3>
+Navigate to wwwroot folder> osTicket>ost-config.php>properties>security>advanced>edit to change permissions
+img placeholder (to show finsihed permissions settings[read & execute/read])
+
+img place holder( of osTicket login screen)
+Confirm everything is working by loggining in with creadentials created during osTicket basic installation.
