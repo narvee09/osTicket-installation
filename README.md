@@ -1,16 +1,18 @@
 # osTicket-installation
 
 
-<h1>system requirements</h1>
 
-<h2>Download</h2>
--  <b>Download and install PHP Manager</b>
 
--  <b>Download and install rewrite_amd64_en-US</b>
+<h2>Prerequisites</h2>
 
--  <b>Download and install HeidiSQL</b>
+- - <b>PHP Manager</b>
+- <b>IIS URL Rewrite Module </b>
+- <b>HeidiSQL</b>
+- <b>mySQL</b>
+- <b>osTicket configuration files</b>
 
--  <b>Download and install mySQL</b>
+
+<h2>mySQL Configuration</h2>
 
 -  -  img placeholder(mySQL setup wizard)
 
@@ -49,7 +51,7 @@ Navigate back to the iinital tree home > PHP Mangaer > Enable or disable an exte
 Navigate to home, restart (IIS) and refresh osTicket in browser (img placeholder to show extension update[how it should look])
 
 
-<h2>Implentation and clean up</h2>
+<h2>Implentation <!---and clean up---></h2>
 <h3>osTicket Security Release</h3>
 Navigate to wwwroot>osTicket>include 
 img(placeholder)
