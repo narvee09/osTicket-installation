@@ -1,11 +1,18 @@
 # osTicket-installation
 
+(img placeholder splash)
 
+<h2>Technologies</h2> <!---think about how well this tracks in ATS for resume, also think about making it all encompassing--->
+
+-  Windows 10
+-  Internet Information Services (IIS)
+-  HeidiSQL
+-  mySQL
 
 
 <h2>Prerequisites</h2>
 
-- - <b>PHP Manager</b>
+- <b>PHP Manager</b>
 - <b>IIS URL Rewrite Module </b>
 - <b>HeidiSQL</b>
 - <b>mySQL</b>
@@ -33,6 +40,11 @@ Navigate to the downloads folder and extract "php-7.38...ect.ect" to the PHP fol
 
 
 <h2>Internet Information Services (IIS) Manager</h2>
+
+<h3>IIS system preperation</h3>
+Navigate to control panel > programs > turn on windows featrues on or off 
+img placeholder(control panel with selection images)
+internet information services > expand world wide web services > expand application developmetn > enable CGI
 
 img placeholder(IIS navigation screens, include connection tree expansion)
 
